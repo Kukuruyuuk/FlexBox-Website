@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main: rgb(250, 163, 1);
+    --sec: rgb(6, 187, 6);
+    --tres: rgb(247, 67, 67);
+}
+
+/* Navbar */
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    padding: 2em 0 2em 0;
+    transition: all .38s ease;
+    font-family: 'Poppins';
+}
+
+nav .logo a {
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-shadow: 3px 2px 7px #000000;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(252, 235, 206);
+}
+
+nav .menu a {
+    color: white;
+}
+
+#menu {
+    display: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: var(--main);
+    font-family: 'Poppins';
+    height: 870px;
+    width: 1730px;
+    background-image: url(../img/kebonjeruk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .jdl {
+    width: 25rem;
+    padding-right: 20rem;
+}
+
+header .jdl h1 {
+    font-size: 5rem;
+}
+
+header .jdl p {
+    color: white;
+}
+
+header .jdl a {
+    text-decoration: none;
+    color: var(--sec);
+    font-size: 2.5rem;
+    font-family: 'Poppins';
+}
+
+header .jdl a:hover {
+    color: rgb(61, 212, 61);
+}
+
+/* Section 1 */
+
+section {
+    height: 870px;
+    width: 1730px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sec1 .gmbr {
+    width: 45rem;
+    height: 45rem;
+    border-radius: 50%;
+    background-image: url(../img/jeruk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 118%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.sec1 .jdl {
+    width: 35rem;
+    height: 35rem;
+    color: var(--main);
+    font-family: 'Poppins';
+}
+
+.sec1 .jdl h1 {
+    font-size: 5rem;
+}
+
+.sec1 .jdl p {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    color: black;
+}
+
+/* Section 2 */
+
+.sec2 {
+    background-color: var(--main);
+}
+
+.sec2 .jdl {
+    width: 35rem;
+    height: 35rem;
+    color: white;
+    font-family: 'Poppins';
+    text-align: end;
+}
+
+.sec2 .jdl h1 {
+    font-size: 5rem;
+}
+
+.sec2 .jdl p {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.sec2 .gmbr {
+    width: 50rem;
+    height: 60rem;
+    background-image: url(../img/jerper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+    background-position-y:-30px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+/* Section 3 */
+
+.sec3 .gmbr {
+    width: 45rem;
+    height: 45rem;
+    border-radius: 50%;
+    background-image: url(../img/lime.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 118%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.sec3 .jdl {
+    width: 35rem;
+    height: 35rem;
+    color: var(--sec);
+    font-family: 'Poppins';
+}
+
+.sec3 .jdl h1 {
+    font-size: 5rem;
+}
+
+.sec3 .jdl p {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.sec4 {
+    background-color: var(--sec);
+}
+
+.sec4 .jdl {
+    width: 35rem;
+    height: 35rem;
+    color: var(--sec);
+    font-family: 'Poppins';
+    color: white;
+}
+
+.sec4 .jdl h1 {
+    font-size: 5rem;
+}
+
+.sec4 .jdl p {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+
+.sec4 .gmbr {
+    width: 50rem;
+    height: 60rem;
+    background-image: url(../img/Banana.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+    background-position: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.sec5 .jdl {
+    width: 35rem;
+    height: 35rem;
+    font-family: 'Poppins';
+}
+
+.sec5 .jdl h1 {
+    font-size: 7rem;
+    color: rgb(247, 67, 67);
+}
+
+.sec5 .jdl p {
+    font-size: 1.5rem;
+}
+
+.sec5 .gmbr {
+    width: 40rem;
+    height: 40rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    background-color: var(--tres);
+    background-image: url(../img/about.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.sec6 {
+    background-color: var(--tres);
+}
+
+.sec6 .jdl {
+    width: 35rem;
+    height: 35rem;
+    font-family: 'Poppins';
+}
+
+.sec6 .jdl h1 {
+    font-size: 7rem;
+    color: white;
+}
+
+.sec6 .jdl ul {
+    list-style: none;
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+}
+
+.sec6 .gmbr {
+    width: 40rem;
+    height: 40rem;
+    background-image: url(../img/profile.jpg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}

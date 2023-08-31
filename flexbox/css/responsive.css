@@ -1,0 +1,137 @@
+/* Responsive */
+
+@media (max-width: 768px) {
+    nav ul {
+        width: 30%;
+    }
+
+    nav .logo a {
+        font-size: 4rem;
+    }
+
+    nav ul li a {
+        font-size: 2rem;
+    }
+
+    /* Header */
+
+    header {
+        height: 2000px;
+        justify-content: start;
+    }
+
+    header .jdl {
+        padding-left: 200px;
+        width: 55rem;
+    }
+
+    header .jdl h1 {
+        font-size: 13rem;
+    }
+
+    header .jdl p, header .jdl a {
+        font-size: 2.5rem;
+    }
+
+    section {
+        height: 2000px;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .sec1 .gmbr, .sec3 .gmbr, .sec5 .gmbr {
+        width: 65rem;
+        height: 65rem;
+    }
+
+    .sec2 .gmbr, .sec4 .gmbr {
+        width: 65rem;
+        height: 75rem;
+    }
+
+    .sec1 .jdl h1, .sec2 .jdl h1, .sec3 .jdl h1, .sec4 .jdl h1, .sec5 .jdl h1 {
+        font-size: 7rem;
+    }
+
+    .sec1 .jdl p, .sec2 .jdl p, .sec3 .jdl p, .sec4 .jdl p, .sec5 .jdl p {
+        font-size: 2rem;
+    }
+
+    .sec1 .jdl, .sec2 .jdl, .sec3 .jdl, .sec4 .jdl, .sec5 .jdl {
+        width: 100rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+
+    nav {
+        padding: 5em 0 5em 0;
+    }
+
+    nav .logo a {
+        font-size: 5rem;
+    }
+
+    #menu {
+        display: inline-block;
+    }
+
+    /* Header */
+
+    header {
+        height: 2500px;
+        justify-content: start;
+    }
+
+    header .jdl {
+        padding-left: 300px;
+        width: 55rem;
+    }
+
+    header .jdl h1 {
+        font-size: 13rem;
+    }
+
+    header .jdl p, header .jdl a {
+        font-size: 2.5rem;
+    }
+
+    /* Section */
+
+    section {
+        height: 3500px;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section .jdl {
+        text-align: center;
+    }
+
+    .sec1 .gmbr, .sec3 .gmbr, .sec5 .gmbr {
+        width: 85rem;
+        height: 85rem;
+    }
+
+    .sec2 .gmbr, .sec4 .gmbr {
+        width: 85rem;
+        height: 100rem;
+    }
+
+    .sec1 .jdl h1, .sec2 .jdl h1, .sec3 .jdl h1, .sec4 .jdl h1, .sec5 .jdl h1 {
+        font-size: 10rem;
+    }
+
+    .sec1 .jdl p, .sec2 .jdl p, .sec3 .jdl p, .sec4 .jdl p, .sec5 .jdl p {
+        font-size: 3rem;
+    }
+
+    .sec1 .jdl, .sec2 .jdl, .sec3 .jdl, .sec4 .jdl, .sec5 .jdl {
+        width: 100rem;
+        text-align: center;
+        margin: 30em 0 30em 0;
+    }
+}
